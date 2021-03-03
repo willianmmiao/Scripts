@@ -1,4 +1,4 @@
-name: ysm
+name: 云扫码
 
 
 on:
@@ -28,7 +28,7 @@ jobs:
       - name: npm install
         run: |
           npm install
-      - name: '运行 【ysm】'
+      - name: '运行 【云扫码】'
         if: env.YSM_HD
         run: |
           node Task/ysm.js
